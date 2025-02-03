@@ -44,7 +44,7 @@ function agregarAmigo() {
 }
 
 // Función para actualizar la lista de amigos mostrada en el HTML
-function actualizarLista() {
+    function actualizarLista() {
     let lista = document.getElementById("listaAmigos"); // Obtiene el elemento de la lista en el HTML
     lista.innerHTML = ""; // Limpia la lista antes de actualizarla
 
@@ -64,7 +64,7 @@ function sortearAmigo() {
         return; // Detiene la ejecución si no hay amigos en la lista
     }
     
-    function sortearAmigo() {
+    
         if (listaAmigos.length < 2) { // Verifica si hay menos de 2 amigos en la lista
             alert("Debe haber al menos 2 amigos en la lista para realizar el sorteo.");
             return;
