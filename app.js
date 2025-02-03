@@ -63,6 +63,12 @@ function sortearAmigo() {
         alert("No hay amigos en la lista para sortear.");
         return; // Detiene la ejecución si no hay amigos en la lista
     }
+    
+    function sortearAmigo() {
+        if (listaAmigos.length < 2) { // Verifica si hay menos de 2 amigos en la lista
+            alert("Debe haber al menos 2 amigos en la lista para realizar el sorteo.");
+            return;
+        }
 
     // Verificar si todos los amigos ya han sido sorteados
     if (listaSorteados.length === listaAmigos.length) {
